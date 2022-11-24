@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* All Start */
+
+.link__btn {
+  color: #7704DB;
+}
+
+/* All End */
+
+/* Header Start */
+
+.header {
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background: linear-gradient(45deg,#3E1852,#25162E);
+  border-bottom: 1px solid rgba(108, 82, 121, 0.9);
+  color: #fff;
+}
+
+.header__first-section {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.header__logo-description p {
+  font-size: 17px;
+  padding: 0 10px;
+  line-height: 20px;
+  max-width: 140px;
+}
+
+.header__second-section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  height: 54px;
+  border-radius: 100px;
+  outline: none;
+  background: #3B0C54;
+  width: 70%;
+  padding: 0 0px 0px 30px;
+  color: #fff;
+  border: 0.567813px solid #7A2FA2;
+}
+
+/* Header End */
